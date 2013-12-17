@@ -21,6 +21,7 @@
 		B36C780B185FFE6200DDCB98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36C77ED185FFE6200DDCB98 /* UIKit.framework */; };
 		B36C7813185FFE6200DDCB98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36C7811185FFE6200DDCB98 /* InfoPlist.strings */; };
 		B36C7815185FFE6200DDCB98 /* DisplayLinkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36C7814185FFE6200DDCB98 /* DisplayLinkerTests.m */; };
+		B36C781F185FFEC200DDCB98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36C781E185FFEC200DDCB98 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B36C7810185FFE6200DDCB98 /* DisplayLinkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisplayLinkerTests-Info.plist"; sourceTree = "<group>"; };
 		B36C7812185FFE6200DDCB98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B36C7814185FFE6200DDCB98 /* DisplayLinkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayLinkerTests.m; sourceTree = "<group>"; };
+		B36C781E185FFEC200DDCB98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36C781F185FFEC200DDCB98 /* QuartzCore.framework in Frameworks */,
 				B36C77EC185FFE6200DDCB98 /* CoreGraphics.framework in Frameworks */,
 				B36C77EE185FFE6200DDCB98 /* UIKit.framework in Frameworks */,
 				B36C77EA185FFE6200DDCB98 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		B36C77E8185FFE6200DDCB98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B36C781E185FFEC200DDCB98 /* QuartzCore.framework */,
 				B36C77E9185FFE6200DDCB98 /* Foundation.framework */,
 				B36C77EB185FFE6200DDCB98 /* CoreGraphics.framework */,
 				B36C77ED185FFE6200DDCB98 /* UIKit.framework */,
